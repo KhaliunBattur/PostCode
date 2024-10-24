@@ -10,8 +10,8 @@ use ZipArchive;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 
-ini_set('memory_limit', '1024M');  // Increase memory limit to 512 MB
-ini_set('max_execution_time', 300);
+// ini_set('memory_limit', '1024M');  // Increase memory limit to 512 MB
+// ini_set('max_execution_time', 300);
 
 class PostcodeController extends Controller
 {

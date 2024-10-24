@@ -7,17 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Install Laravel 
-
-## Install mySql 
-
-## Install Postman 
+## Install 
+Install docker
 
 ## Run 
-php artisan migrate
-php artisan serve
+docker compose up -d
 
 ## Test 
-REST API「/api/post_csvfileupload」を実行すると「https://www.post.japanpost.jp/zipcode/dl/utf/zip/utf_ken_all.zip」からzipファイルを
-「post-api/storage/app/zips」にダウンロードして、「post-api/storage/app/csv」にunzipしています。
-その後、unzipした「utf_ken_all.csv」ファイルをMySqlDBに入れています。
+PostmanでREST API「/api/post_csvfileupload」を呼び出すと「https://www.post.japanpost.jp/zipcode/dl/utf/zip/utf_ken_all.zip」からzipファイルを「post-api/storage/app/zips」にダウンロードして、「post-api/storage/app/csv」にunzipします。
+その後、unzipした「utf_ken_all.csv」ファイルをMySqlDBに入れていきます。
